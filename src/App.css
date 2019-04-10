@@ -1,0 +1,25 @@
+.App {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column,
+}
+
+.person-enter{
+  opacity: 0.0;
+}
+.person-enter-active{
+  opacity: 1.0;
+  transition: opacity 0.2s
+}
+
+.person-exit{
+  opacity: 1.0;
+}
+
+.person-exit-active{
+  opacity: 0.0;
+  transition: opacity 0.2s
+}
